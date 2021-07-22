@@ -14,6 +14,8 @@
 		AD3FD1DB26A9AD8C00E936C0 /* Forecase.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AD3FD1D926A9AD8C00E936C0 /* Forecase.xcdatamodeld */; };
 		AD3FD1DD26A9AD8C00E936C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD3FD1DC26A9AD8C00E936C0 /* Assets.xcassets */; };
 		AD3FD1E026A9AD8C00E936C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD3FD1DE26A9AD8C00E936C0 /* LaunchScreen.storyboard */; };
+		AD3FD1E926A9B1F000E936C0 /* SummaryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3FD1E826A9B1F000E936C0 /* SummaryTableViewCell.swift */; };
+		AD3FD1EB26A9B20C00E936C0 /* ForecaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3FD1EA26A9B20C00E936C0 /* ForecaseTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		AD3FD1DC26A9AD8C00E936C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD3FD1DF26A9AD8C00E936C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD3FD1E126A9AD8C00E936C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD3FD1E826A9B1F000E936C0 /* SummaryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryTableViewCell.swift; sourceTree = "<group>"; };
+		AD3FD1EA26A9B20C00E936C0 /* ForecaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecaseTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 		AD3FD1CF26A9AD8C00E936C0 /* Forecase */ = {
 			isa = PBXGroup;
 			children = (
+				AD3FD1E726A9B1C600E936C0 /* Cell */,
 				AD3FD1D026A9AD8C00E936C0 /* AppDelegate.swift */,
 				AD3FD1D226A9AD8C00E936C0 /* SceneDelegate.swift */,
 				AD3FD1D426A9AD8C00E936C0 /* ViewController.swift */,
@@ -68,6 +73,15 @@
 				AD3FD1D926A9AD8C00E936C0 /* Forecase.xcdatamodeld */,
 			);
 			path = Forecase;
+			sourceTree = "<group>";
+		};
+		AD3FD1E726A9B1C600E936C0 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				AD3FD1E826A9B1F000E936C0 /* SummaryTableViewCell.swift */,
+				AD3FD1EA26A9B20C00E936C0 /* ForecaseTableViewCell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +157,8 @@
 				AD3FD1D526A9AD8C00E936C0 /* ViewController.swift in Sources */,
 				AD3FD1DB26A9AD8C00E936C0 /* Forecase.xcdatamodeld in Sources */,
 				AD3FD1D126A9AD8C00E936C0 /* AppDelegate.swift in Sources */,
+				AD3FD1EB26A9B20C00E936C0 /* ForecaseTableViewCell.swift in Sources */,
+				AD3FD1E926A9B1F000E936C0 /* SummaryTableViewCell.swift in Sources */,
 				AD3FD1D326A9AD8C00E936C0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
